@@ -1,0 +1,25 @@
+operation,structure,complexity,n,time_us
+insert,BST (random),O(n log n),5000,580.4000
+insert,BST (random),O(n log n),10000,1640.2000
+insert,BST (random),O(n log n),20000,4105.8000
+insert,BST (random),O(n log n),50000,13622.1000
+search,BST (random),O(n log n),5000,212.8000
+search,BST (random),O(n log n),10000,494.8000
+search,BST (random),O(n log n),20000,1248.0000
+search,BST (random),O(n log n),50000,4092.9000
+insert,BST (sorted),O(n^2),1000,3953.3000
+insert,BST (sorted),O(n^2),2000,14294.9000
+insert,BST (sorted),O(n^2),5000,87981.2000
+insert,BST (sorted),O(n^2),10000,365501.7000
+search,BST (sorted),O(n^2),1000,1181.7000
+search,BST (sorted),O(n^2),2000,6094.8000
+search,BST (sorted),O(n^2),5000,39111.3000
+search,BST (sorted),O(n^2),10000,169725.8000
+insert,AVL (sorted),O(n log n),5000,477.5000
+insert,AVL (sorted),O(n log n),10000,1014.5000
+insert,AVL (sorted),O(n log n),20000,2233.3000
+insert,AVL (sorted),O(n log n),50000,6101.4000
+search,AVL (sorted),O(n log n),5000,63.5000
+search,AVL (sorted),O(n log n),10000,148.7000
+search,AVL (sorted),O(n log n),20000,449.5000
+search,AVL (sorted),O(n log n),50000,1306.9000

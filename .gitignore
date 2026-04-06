@@ -1,0 +1,48 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# IDE files — VS Code
+.vscode/
+
+# IDE files — Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.sln.docstates
+
+# IDE files — CLion / JetBrains
+.idea/
+
+# Editor temp files
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled objects
+*.o
+*.obj
+*.exe
+*.out
+
+# Claude temp files
+.claude/
+tmpclaude*
+
+# Python virtual env / pip installs
+__pycache__/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+*.pyc
+
+# Generated HTML (interactive charts)
+charts.html
+charts_space.html
+

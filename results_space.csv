@@ -1,0 +1,15 @@
+scenario,complexity,n,heap_bytes,height
+BST (random),O(n log n),1000,24000,21
+BST (random),O(n log n),2000,48000,23
+BST (random),O(n log n),5000,120000,25
+BST (random),O(n log n),10000,240000,33
+BST (random),O(n log n),20000,480000,35
+BST (sorted),O(n^2),1000,24000,999
+BST (sorted),O(n^2),2000,48000,1999
+BST (sorted),O(n^2),5000,120000,4999
+BST (sorted),O(n^2),10000,240000,9999
+AVL (sorted),O(n log n),1000,32000,9
+AVL (sorted),O(n log n),2000,64000,10
+AVL (sorted),O(n log n),5000,160000,12
+AVL (sorted),O(n log n),10000,320000,13
+AVL (sorted),O(n log n),20000,640000,14
