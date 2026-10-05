@@ -94,7 +94,7 @@ def group_by_scenario(rows):
     return series
 
 
-# -- Chart colours / styles ---------------------------------------------------
+# -- Chart colors / styles ---------------------------------------------------
 
 COLORS = {
     "BST (random)": "#16a34a",   # green
